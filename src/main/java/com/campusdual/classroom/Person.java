@@ -8,4 +8,7 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 	}
+	public void getDetails(){
+		System.out.println("Name: "+this.name+" - surname: "+this.surname+" - specialization: ");
+	}
 }
